@@ -1,8 +1,8 @@
 Package.describe({
   name: 'katocolon:pinboarder',
-  summary: ' /* Fill me in! */ ',
-  version: '1.0.0',
-  git: ' /* Fill me in! */ '
+  summary: 'pinboard thing for meteor',
+  version: '0.0.0',
+  git: 'https://github.com/michaelcolenso/pinboarder.git'
 });
 
 Package.onUse(function(api) {
