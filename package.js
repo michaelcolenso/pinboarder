@@ -1,17 +1,16 @@
 Package.describe({
-  name: 'katocolon:pinboarder',
+  name: 'pinboarder',
   summary: 'pinboard thing for meteor',
-  version: '0.0.0',
+  version: '0.0.1',
   git: 'https://github.com/michaelcolenso/pinboarder.git'
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('1.0');
-  api.addFiles('katocolon:pinboarder.js');
+  api.addFiles('pinboarder.js');
 });
 
 Package.onTest(function(api) {
   api.use('tinytest');
-  api.use('katocolon:pinboarder');
-  api.addFiles('katocolon:pinboarder-tests.js');
+  api.use('pinboarder');
+  api.addFiles('pinboarder-tests.js');
 });
